@@ -93,22 +93,22 @@ Algorithm
 ---------
 A Politician's Switcher Score is computed using the following formula:
 
-![](https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/ss.gif )
+.. image:: https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/ss.gif
 
 Where `SSx` is the individual politician switching score; `i` is the switch index for
 politician `x`. At switch `i` politician goes from `ppi` (previous party) to `npi` (next party).
 
-Switching type `st`:
+Switching type - `st`:
 
-![](https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/st.gif )
+.. image:: https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/st.gif
 
-Switching weight `sw`:
+Switching weight - `sw`:
 
-![](https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/sw.gif )
+.. image:: https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/sw.gif
 
-Switching power `sp` of the parties:
+Switching power, `sp`, of the parties:
 
-![](https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/sp.gif )
+.. image:: https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/sp.gif
 
 This is computed externally of this repository and is imported from the
 `overall_party_performance.json` from `helper_data` folder. For more information on how
@@ -118,7 +118,7 @@ the `Romanian Journal of Political Sciences`_.
 The Party Switcher Score is calculated as the geometric mean of the individual politicians'
 switcher score, weighted by the size of the party:
 
-![](https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/pss.gif )
+.. image:: https://raw.githubusercontent.com/mihaiparvu/RoPoNet/master/images/pss.gif
 
 It is only computed for the parties that have switchers.
 
